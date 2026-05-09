@@ -75,7 +75,7 @@ const CATS = [
   { label: "기업",       dot: "#6b7280", keys: [] },
 ];
 
-const CACHE_KEY = "cgt_v20";
+const CACHE_KEY = "cgt_v21";
 
 // 소스 우선순위 — 낮을수록 높은 우선순위 (대표 기사 선정 기준)
 const SOURCE_PRIORITY = {
