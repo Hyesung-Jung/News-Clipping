@@ -143,10 +143,10 @@ function saveCache(data) {
 // ── RSS 본문 요약 (500~600자) ─────────────────────────────────────────────────
 function getDesc(item) {
   const raw = item.desc || item.title;
-  if (raw.length <= 500) return raw;
-  const cut = raw.slice(0, 580);
+  if (raw.length <= 1000) return raw;
+  const cut = raw.slice(0, 120);
   const last = Math.max(cut.lastIndexOf("다. "), cut.lastIndexOf(". "));
-  return last > 400 ? cut.slice(0, last + 1) : cut + "…";
+  return last > 800 ? cut.slice(0, last + 1) : cut + "…";
 }
 
 // ── Row ──────────────────────────────────────────────────────────────────────
