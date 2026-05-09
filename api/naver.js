@@ -2,8 +2,6 @@
 // 네이버 검색 API를 서버에서 호출 후 프론트에 전달 (CORS 우회)
 //
 // 환경변수 설정 (Vercel 대시보드 → Settings → Environment Variables):
-//   NAVER_CLIENT_ID     = hb0MZFZyHAcRH_mvSTiA
-//   NAVER_CLIENT_SECRET = zErjBKksWQ
 
 export default async function handler(req, res) {
   // CORS 허용
