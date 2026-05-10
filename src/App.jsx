@@ -293,7 +293,7 @@ function Row({ item, idx, isLast, isOpen, onToggle }) {
                 fontSize: 14.5,
                 lineHeight: 1.85,           // 문단 간격 축소 (2.05 → 1.85)
                 color: "#28231f",
-                fontFamily: "'Noto Serif KR', Georgia, serif",
+                fontFamily: "'Malgun Gothic', '맑은 고딕', sans-serif",
                 wordBreak: "keep-all",
                 letterSpacing: "0.008em",
                 fontWeight: 400,
